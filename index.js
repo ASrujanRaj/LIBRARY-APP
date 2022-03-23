@@ -10,8 +10,6 @@ const getBook = new mongoose.Schema({
     bookAuthor: {
         type : String,
         required: true
-    
-    
     },
     bookAvailable:{
         type: Boolean,
